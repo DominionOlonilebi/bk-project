@@ -9,7 +9,7 @@ const app = express();
 //setting up cors origin using devirtuos.com company only request from them wil be accepted by the backend
 //middleware
 const corsOptions = {
-    origin: 'http://127.0.0.1:5501',
+    origin: 'https://sapa-project.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }
 
